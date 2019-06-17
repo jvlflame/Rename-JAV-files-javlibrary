@@ -1,4 +1,4 @@
-function Move-JAVFiles {
+function Move-JAV {
     [CmdletBinding()]
     param(
         [Parameter(Mandatory=$true, Position=0)]
