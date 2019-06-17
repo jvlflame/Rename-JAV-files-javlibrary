@@ -1,12 +1,4 @@
 function Rename-JAV {
-    <#
-        .SYNOPSIS
-            Rename and sort Japanese Adult Video (JAV) video files, following ID naming scheme.
-        .EXAMPLE
-            Example of how to use this cmdlet
-        .EXAMPLE
-            Another example of how to use this cmdlet
-    #>
         [CmdletBinding()]
         param(
             [ValidateScript({
