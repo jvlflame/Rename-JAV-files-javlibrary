@@ -2,7 +2,7 @@ function Move-JAVFiles {
     [CmdletBinding()]
     param(
         [Parameter(Mandatory=$true, Position=0)]
-        [string]$FilePath,
+        [System.IO.FileInfo]$FilePath,
         [Parameter(Mandatory=$true, Position=1)]
         [int]$FileSize, # greater than in MB
         [switch]$Recurse
