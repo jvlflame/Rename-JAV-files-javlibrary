@@ -2,4 +2,4 @@
 Rename JAV files downloaded from JAVLibrary.com
 
 ## Demo
-![Demo](https://raw.githubusercontent.com/jvlflame/Rename-JAV-files/master/demo.gif)
+![Demo](https://github.com/jvlflame/Rename-JAV-files/blob/master/demo.gif?raw=true)
