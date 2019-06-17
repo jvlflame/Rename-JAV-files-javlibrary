@@ -5,7 +5,6 @@ function Move-JAVFiles {
         [System.IO.FileInfo]$FilePath,
         [Parameter(Mandatory=$true, Position=1)]
         [int]$FileSize, # greater than in MB
-        [switch]$Recurse
     )
 
     # Get all video files (.mp4, .avi, .mkv, .wmv) in the $FilePath directory greater than $FileSize
@@ -14,9 +13,12 @@ function Move-JAVFiles {
         -or $_.Name -like "*.avi"`
         -or $_.Name -like "*.mkv"`
         -or $_.Name -like "*.wmv"`
-        -and $_.Length -ge ($FileSize * 1000000)
+        -and $_.Length -ge ($FileSize * 1MB)
     }
-
+    
+    # Move video files
     $Files | Move-Item -Destination $DestinationPath -Verbose
+    
+    # Delete everything else
     Get-ChildItem -Path $FilePath -Recurse | Remove-Item -Recurse -Verbose
 }
