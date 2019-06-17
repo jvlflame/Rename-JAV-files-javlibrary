@@ -1,4 +1,4 @@
-# Rename-JAV-files
+# Rename JAV Files
 Rename JAV files downloaded from JAVLibrary.com
 
 ## Demo
