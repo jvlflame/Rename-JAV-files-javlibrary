@@ -4,7 +4,7 @@
 [![Last commit](https://img.shields.io/github/last-commit/jvlflame/Rename-JAV-files-javlibrary.svg?style=popout)](https://github.com/jvlflame/Rename-JAV-files-javlibrary/commits/master)
 [![License](https://img.shields.io/github/license/jvlflame/Rename-JAV-files-javlibrary.svg?style=popout)](https://github.com/jvlflame/Rename-JAV-files-javlibrary/blob/master/LICENSE)
 
-Rename JAV files downloaded from JAVLibrary.com to their common ID format. I find that video files direct downloaded or torrented from JavLibrary tend to be inconsistent and ugly. This script is best used if you sort your media library manually and wanted a consistent video ID naming scheme.
+Rename JAV files downloaded from JAVLibrary.com to their common ID format. I find that video files direct downloaded or torrented from JavLibrary tend to be inconsistent and ugly. This script is best used if you sort your media library manually and want a consistent video ID naming scheme.
 
 ## Demo
 ![Demo](https://raw.githubusercontent.com/jvlflame/Rename-JAV-files-javlibrary/master/demo-exe.gif)
