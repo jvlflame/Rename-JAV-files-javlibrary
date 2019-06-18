@@ -11,8 +11,8 @@ function Rename-JAV {
             [System.IO.FileInfo]$FilePath,
             [Parameter(Mandatory=$false, Position=1)]
             [System.IO.FileInfo]$DestinationPath,
-            [System.IO.FileInfo]$LogPath = $PSScriptRoot, # Format: C:\transcripts\transcript0.txt
-            [int]$FileSize, # counted in MB
+            [System.IO.FileInfo]$LogPath,
+            [int]$FileSize,
             [switch]$Recurse,
             [switch]$Confirm
         )
