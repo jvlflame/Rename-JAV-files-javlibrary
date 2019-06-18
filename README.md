@@ -15,28 +15,22 @@ Clone the repository to a desired location. Run Rename-Jav.ps1 from a **non-admi
 
 ### Parameters
 **.PARAMETER** FilePath [Required]
-
-Specifies the path to video files.
+  Specifies the path to video files.
 
 **.PARAMETER** DestinationPath
-
-Specifies the path to move all video files to.
+  Specifies the path to move all video files to.
 
 **.PARAMETER** LogPath
-
-Specifies the path and filename of the log file. Recommended to keep track of file changes.
+  Specifies the path and filename of the log file. Recommended to keep track of file changes.
 
 **.PARAMETER** FileSize
-
-Specifies the minimum filesize of video files to search in Megabytes (MB).
+  Specifies the minimum filesize of video files to search in Megabytes (MB).
 
 **.PARAMETER** Recurse
-
-Specifies to run a recursive search of the FilePath directory.
+  Specifies to run a recursive search of the FilePath directory.
 
 **.PARAMETER** Confirm
-
-Specifies to skip the yes/no prompt before renaming/moving the video files.
+  Specifies to skip the yes/no prompt before renaming/moving the video files.
 
 ## Examples
 **Example 1** Rename all files recursively in path C:\Downloads\ with filesize greater than 500MB and move all found video files to C:\Downloads\SortedFiles\. Write log to C:\Downloads\RenameLog.txt.
@@ -51,7 +45,7 @@ Specifies to skip the yes/no prompt before renaming/moving the video files.
 
 `Rename-JAV -FilePath 'C:\Downloads\' -LogPath 'C:\Downloads\RenameLog.txt' -Recurse -Confirm`
 
-### Demo
+## Demo
 ![Demo](https://github.com/jvlflame/Rename-JAV-files/blob/master/demo.gif?raw=true)
 
 The R/M column indicate if the file will be Renamed/Moved respectively.
