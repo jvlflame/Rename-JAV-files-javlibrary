@@ -1,5 +1,5 @@
 <p align="center">
-  <b>Rename JAV Files</b><br>
+  <b><font size=20>Rename JAV Files</font></b><br>
 </p>
 
 Rename JAV files downloaded from JAVLibrary.com to their common ID format. If you manually sort your library, and hate having your video file naming scheme cluttered and inconsistent, this is for you.
