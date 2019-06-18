@@ -33,7 +33,7 @@ Specifies to run a recursive search of the FilePath directory.
 
 Specifies to skip the yes/no prompt before renaming/moving the video files.
 
-### Examples
+## Examples
 **Example 1** Rename all files recursively in path C:\Downloads\ with filesize greater than 500MB and move all found video files to C:\Downloads\SortedFiles\. Write log to C:\Downloads\RenameLog.txt.
 
 `Rename-JAV -FilePath 'C:\Downloads\' -DestinationPath 'C:\Downloads\SortedFiles\ -LogPath 'C:\Downloads\RenameLog.txt' -FileSize 500 -Recurse`
