@@ -39,18 +39,16 @@ Clone the repository to a desired location. Run Rename-Jav.ps1 from a **non-admi
 &nbsp;&nbsp;&nbsp;&nbsp;Specifies to skip the yes/no prompt before renaming/moving the video files.
 
 ## Examples
-**Example 1** Rename all files recursively in path C:\Downloads\ with filesize greater than 500MB and move all found video files to C:\Downloads\SortedFiles\. Write log to C:\Downloads\RenameLog.txt.
+**Example 1** Rename all files recursively in path C:\Downloads\ with filesize greater than 500MB. Write log to C:\Downloads\RenameLog.txt.
 ```
-Rename-JAV -FilePath 'C:\Downloads\' -DestinationPath 'C:\Downloads\SortedFiles\ -LogPath 'C:\Downloads\RenameLog.txt' -FileSize 500 -Recurse
+Rename-JAV -FilePath 'C:\Downloads\'  -LogPath 'C:\Downloads\RenameLog.txt' -FileSize 500 -Recurse
 ```
-**Example 2** Rename only files located in path C:\Downloads\ with filesize greater than 400MB.
-
+**Example 2** Rename only files located in path C:\Downloads\ with filesize greater than 400MB and move all found video files to C:\Downloads\SortedFiles\.
 ```
-Rename-JAV -FilePath 'C:\Downloads\' -FileSize 400
+Rename-JAV -FilePath 'C:\Downloads\' -DestinationPath 'C:\Downloads\SortedFiles\ -FileSize 400
 ```
 
 **Example 3** Rename all files recursively in path C:\Downloads\ with filesize greater than 0MB without prompting yes/no. write log to C:\Downloads\RenameLog.txt.
-
 ```
 Rename-JAV -FilePath 'C:\Downloads\' -LogPath 'C:\Downloads\RenameLog.txt' -Recurse -Confirm
 ```
