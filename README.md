@@ -72,7 +72,7 @@ Rename-JAV -FilePath 'C:\Downloads\' -LogPath 'C:\Downloads\RenameLog.txt' -Recu
 ## Demo
 ![Demo](https://github.com/jvlflame/Rename-JAV-files/blob/master/demo.gif?raw=true)
 
-The R/M column indicate if the file will be Renamed/Moved respectively.
+The R/M column indicates if the file will be Renamed/Moved respectively.
 
 ## Known issues
 I recommend not to use this script recursively within a very large directory. I would say up to 50 files at a time, but if all looks good, go for more. If you have downloaded files from alternative sources, you may run into issues where it breaks the script. Press `Ctrl+C` to cancel the running script. Remove all conflicting files before running again.
