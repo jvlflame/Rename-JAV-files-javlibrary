@@ -6,6 +6,11 @@
 
 Rename JAV files downloaded from JAVLibrary.com to their common ID format. If you manually sort your library, and hate having your video file naming scheme cluttered and inconsistent, this is for you.
 
+## Demo
+![Demo](https://github.com/jvlflame/Rename-JAV-files/blob/master/demo.gif?raw=true)
+
+The R/M column indicates if the file will be Renamed/Moved respectively.
+
 ## About
 **Rename-JAV.ps1** will:
 
@@ -73,11 +78,6 @@ Rename-JAV -FilePath 'C:\Downloads\' -DestinationPath 'C:\Downloads\SortedFiles\
 ```
 Rename-JAV -FilePath 'C:\Downloads\' -LogPath 'C:\Downloads\RenameLog.txt' -Recurse -Confirm
 ```
-
-## Demo
-![Demo](https://github.com/jvlflame/Rename-JAV-files/blob/master/demo.gif?raw=true)
-
-The R/M column indicates if the file will be Renamed/Moved respectively.
 
 ## Known issues
 I recommend not to use this script recursively within a very large directory. I would say up to 50 files at a time, but if all looks good, go for more. If you have downloaded files from alternative sources, you may run into issues where it breaks the script. Press `Ctrl+C` to cancel the running script. Remove all conflicting files before running again.
