@@ -8,7 +8,8 @@ The R/M column indicate if the file will be Renamed/Moved respectively.
 Clone the repository. Run Rename-Jav.ps1 from a **non-administrator** PowerShell prompt. You may not be able to find network drives when running PowerShell as administrator.
 
 ### Parameters
-.PARAMETER FilePath [Required]
+
+####.PARAMETER FilePath [Required]
 
 Specifies the path to video files
 
