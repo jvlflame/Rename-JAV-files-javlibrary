@@ -15,21 +15,27 @@ Clone the repository to a desired location. Run Rename-Jav.ps1 from a **non-admi
 
 ### Parameters
 **.PARAMETER** FilePath [Required]
+
   Specifies the path to video files.
 
 **.PARAMETER** DestinationPath
+
   Specifies the path to move all video files to.
 
 **.PARAMETER** LogPath
+
   Specifies the path and filename of the log file. Recommended to keep track of file changes.
 
 **.PARAMETER** FileSize
+
   Specifies the minimum filesize of video files to search in Megabytes (MB).
 
 **.PARAMETER** Recurse
+
   Specifies to run a recursive search of the FilePath directory.
 
 **.PARAMETER** Confirm
+
   Specifies to skip the yes/no prompt before renaming/moving the video files.
 
 ## Examples
