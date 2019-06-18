@@ -7,32 +7,31 @@ The R/M column indicate if the file will be Renamed/Moved respectively.
 ## Usage
 Clone the repository. Run Rename-Jav.ps1 from a **non-administrator** PowerShell prompt. You may not be able to find network drives when running PowerShell as administrator.
 
-### Parameters
+### Function Rename-JAV
 
-####.PARAMETER FilePath [Required]
+**.PARAMETER** FilePath [Required]
 
 Specifies the path to video files
 
-.PARAMETER DestinationPath
+**.PARAMETER** DestinationPath
 
 Specifies the path to move all video file sto
 
-.PARAMETER LogPath
+**.PARAMETER** LogPath
 
 Specifies the path and filename of the log file. Recommended to keep track of file changes.
 
-.PARAMETER FileSize
+**.PARAMETER** FileSize
 
 Specifies the minimum filesize of video files to search in Megabytes (MB).
 
-.PARAMETER Recurse
+**.PARAMETER** Recurse
 
 Specifies to run a recursive search of the FilePath directory.
 
-.PARAMETER Confirm
+**.PARAMETER** Confirm
 
 Specifies to skip the yes/no prompt before renaming/moving the video files.
-
 
 ### Examples
 **Example 1** Rename all files recursively in path C:\Downloads\ with filesize greater than 500MB and move all found video files to C:\Downloads\SortedFiles\. Write log to C:\Downloads\RenameLog.txt.
