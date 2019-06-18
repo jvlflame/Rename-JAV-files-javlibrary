@@ -81,3 +81,4 @@ I recommend not to use this script recursively within a very large directory. I 
 - [x] Working build
 - [ ] Better logging
 - [ ] Allow reversal of changes made
+- [ ] Create GUI front-end
