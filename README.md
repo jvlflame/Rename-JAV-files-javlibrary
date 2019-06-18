@@ -8,6 +8,7 @@ Rename JAV files downloaded from JAVLibrary.com to their common ID format. I fin
 
 ## Demo
 ![Demo](https://raw.githubusercontent.com/jvlflame/Rename-JAV-files-javlibrary/master/demo-exe.gif)
+[Alternative demo](https://raw.githubusercontent.com/jvlflame/Rename-JAV-files-javlibrary/master/demo.gif)
 
 The R/M column indicates if the file will be Renamed/Moved respectively.
 
