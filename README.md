@@ -1,5 +1,8 @@
 # Rename JAV Files
-[![GitHub release](https://img.shields.io/github/release/jvlflame/Rename-JAV-files-javlibrary.svg?label=release)](https://github.com/jvlflame/Rename-JAV-files-javlibrary/releases/) [![GitHub downloads](https://img.shields.io/github/downloads/jvlflame/Rename-JAV-files-javlibrary/total.svg?style=popout)]
+[![GitHub release](https://img.shields.io/github/release/jvlflame/Rename-JAV-files-javlibrary.svg?label=release)](https://github.com/jvlflame/Rename-JAV-files-javlibrary/releases/)
+![Last commit](https://img.shields.io/github/last-commit/jvlflame/Rename-JAV-files-javlibrary.svg?style=popout)
+![GitHub downloads](https://img.shields.io/github/downloads/jvlflame/Rename-JAV-files-javlibrary/total.svg?style=popout) 
+![License](https://img.shields.io/github/license/jvlflame/Rename-JAV-files-javlibrary.svg?style=popout)
 
 Rename JAV files downloaded from JAVLibrary.com to their common ID format. If you manually sort your library, and hate having your video file naming scheme cluttered and inconsistent, this is for you.
 
