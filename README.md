@@ -2,21 +2,28 @@
 Rename JAV files downloaded from JAVLibrary.com to their common ID format.
 
 ## About
-Rename-JAV.ps1 will:
+**Rename-JAV.ps1** will:
 
 * Rename JAV files to their ID format from files directly downloaded and torrented from JAVLibrary.com
 * Move all files to a specified directory if desired
 * Remove compressed '-5' format videos if the original exists
 
-The script does not perform any webscraping or metadata checks. This is simply renaming through Regex checks, so make sure to confirm that all the files are being renamed correctly before confirming. If files are not being found, make necessary adjustments to the Get-Files function.
+*The script does not perform any webscraping or metadata checks.* This is simply renaming through Regex checks, so make sure to confirm that all the files are being renamed correctly before confirming. If files are not being found, make necessary adjustments to the Get-Files function.
+
+**Move-JAV.ps1** will:
+
+* Move all found video files from a specified path to another specified path
+* Delete all remaining files
+
+This is useful if you commonly download torrents which contain a lot of extra trash files.
 
 ## How to use?
-Clone the repository to a desired location. Run Rename-Jav.ps1 from a **non-administrator** PowerShell prompt. You may not be able to find network drives when running PowerShell as administrator. I recommend creating specified directories for downloading/sorting and then converting the script to an .exe with a [PS2EXE Converter](https://gallery.technet.microsoft.com/scriptcenter/PS2EXE-GUI-Convert-e7cb69d5).
+Clone the repository to a desired location. Run Rename-Jav.ps1 or Move-JAV.ps1 from a **non-administrator** PowerShell prompt. You may not be able to find network drives when running PowerShell as administrator. I recommend creating specified directories for downloading/sorting and then converting the script to an .exe with a [PS2EXE Converter](https://gallery.technet.microsoft.com/scriptcenter/PS2EXE-GUI-Convert-e7cb69d5).
 
-### Parameters
+### Rename-JAV.ps1 Parameters
 **.PARAMETER** FilePath [Required]
 
-&nbsp;&nbsp;&nbsp;&nbsp;Specifies the path to video files.
+&nbsp;&nbsp;&nbsp;&nbsp;Specifies the path to the video files.
 
 **.PARAMETER** DestinationPath
 
@@ -37,6 +44,15 @@ Clone the repository to a desired location. Run Rename-Jav.ps1 from a **non-admi
 **.PARAMETER** Confirm
 
 &nbsp;&nbsp;&nbsp;&nbsp;Specifies to skip the yes/no prompt before renaming/moving the video files.
+
+### Move-JAV.ps1 Parameters
+**.PARAMETER** FilePath [Required]
+
+&nbsp;&nbsp;&nbsp;&nbsp;Specifies the path to the your torrent download directory.
+
+**.PARAMETER** FileSize [Required]
+
+&nbsp;&nbsp;&nbsp;&nbsp;Specifies the minimum filesize of video files to search in Megabytes (MB). I recommend 250+ to ignore all the trash/unneeded files.
 
 ## Examples
 **Example 1** Rename all files recursively in path C:\Downloads\ with filesize greater than 500MB. Write log to C:\Downloads\RenameLog.txt.
