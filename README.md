@@ -1,5 +1,5 @@
 # Rename JAV Files
-Rename JAV files downloaded from JAVLibrary.com to their common ID format.
+Rename JAV files downloaded from JAVLibrary.com to their common ID format. If you manually sort your library, and hate having your video file naming scheme cluttered and inconsistent, this is for you.
 
 ## About
 **Rename-JAV.ps1** will:
