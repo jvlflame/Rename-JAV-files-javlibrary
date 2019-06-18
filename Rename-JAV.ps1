@@ -327,7 +327,3 @@ function Rename-JAV {
         }
         pause
     }
-
-$ScriptRoot = [System.AppDomain]::CurrentDomain.BaseDirectory.TrimEnd('\')
-
-Rename-JAV -FilePath $ScriptRoot -FileSize 250 -LogPath (Join-Path -Path $ScriptRoot -ChildPath rename-jav-log.txt)
