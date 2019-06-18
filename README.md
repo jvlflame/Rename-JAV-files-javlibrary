@@ -80,4 +80,4 @@ I recommend not to use this script recursively within a very large directory. I 
 ## To do
 - [x] Working build
 - [ ] Better logging
-- [ ] Allow reverse of changes made
+- [ ] Allow reversal of changes made
