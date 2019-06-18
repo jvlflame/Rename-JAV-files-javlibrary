@@ -52,7 +52,7 @@ Clone the repository to a desired location. Run Rename-Jav.ps1 or Move-JAV.ps1 f
 
 **.PARAMETER** FileSize [Required]
 
-&nbsp;&nbsp;&nbsp;&nbsp;Specifies the minimum filesize of video files to search in Megabytes (MB). I recommend 250+ to ignore all the trash/unneeded files.
+&nbsp;&nbsp;&nbsp;&nbsp;Specifies the minimum filesize of video files to search in Megabytes (MB). I recommend at least 250.
 
 ## Examples
 **Example 1** Rename all files recursively in path C:\Downloads\ with filesize greater than 500MB. Write log to C:\Downloads\RenameLog.txt.
