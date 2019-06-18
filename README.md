@@ -2,6 +2,8 @@
 Rename JAV files downloaded from JAVLibrary.com
 ![Demo](https://github.com/jvlflame/Rename-JAV-files/blob/master/demo.gif?raw=true)
 
+The R/M column indicate Rename/Move respectively.
+
 ## Usage
 Clone the repository. Load Rename-Jav.ps1 from a **non-admin** PowerShell prompt.
 
