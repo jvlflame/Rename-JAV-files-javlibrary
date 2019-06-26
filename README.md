@@ -84,6 +84,8 @@ Rename-JAV -FilePath 'C:\Downloads\' -LogPath 'C:\Downloads\RenameLog.txt' -Recu
 ## Known issues
 I recommend not to use this script recursively within a very large directory. I would say up to 50 files at a time, but if all looks good, go for more. If you have downloaded files from alternative sources, you may run into issues where it breaks the script. Press `Ctrl+C` to cancel the running script. Remove all conflicting files before running again.
 
+Some files are excluded from renaming: including fc2, t28, 1pon. Uncensored JAV and others with different naming schemes may break the script, and you should tread with caution when running a recursive scan of directories containining them.
+
 ## To do
 - [x] Working build
 - [ ] Better logging
