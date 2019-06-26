@@ -5,7 +5,7 @@ function Move-JAV {
         [System.IO.FileInfo]$FilePath,
         [Parameter(Mandatory=$true, Position=1)]
         [System.IO.FileInfo]$DestinationPath,
-        [Parameter()]
+        [Parameter(Mandatory=$true, Position=2)]
         [int]$FileSize # greater than in MB
     )
 
