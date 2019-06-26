@@ -62,6 +62,10 @@ Clone the repository to a desired location. Run Rename-Jav.ps1 or Move-JAV.ps1 f
 
 &nbsp;&nbsp;&nbsp;&nbsp;Specifies the path to the your torrent download directory.
 
+**.PARAMETER** DestinationPath [Required]
+
+&nbsp;&nbsp;&nbsp;&nbsp;Specifies the path to where you want to move the video files.
+
 **.PARAMETER** FileSize [Required]
 
 &nbsp;&nbsp;&nbsp;&nbsp;Specifies the minimum filesize of video files to search in Megabytes (MB). I recommend at least 250.
