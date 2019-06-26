@@ -4,7 +4,9 @@ function Move-JAV {
         [Parameter(Mandatory=$true, Position=0)]
         [System.IO.FileInfo]$FilePath,
         [Parameter(Mandatory=$true, Position=1)]
-        [int]$FileSize, # greater than in MB
+        [System.IO.FileInfo]$DestinationPath,
+        [Parameter()]
+        [int]$FileSize # greater than in MB
     )
 
     # Get all video files (.mp4, .avi, .mkv, .wmv) in the $FilePath directory greater than $FileSize
