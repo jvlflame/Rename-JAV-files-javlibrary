@@ -96,3 +96,7 @@ Some files are excluded from renaming: including fc2, t28, 1pon. Uncensored JAV 
 - [ ] Better error handling
 - [ ] Allow reversal of changes made
 - [ ] Create GUI front-end
+
+## Notable mentions
+
+A script similar in function, but with actual webscraping and metadata checks written in Python: https://github.com/mrunkel/sort_jav
