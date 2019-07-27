@@ -1,11 +1,11 @@
+# Alternative project
+Check out an alternative project to sort JAV files: https://github.com/jvlflame/JAV-Sort-Scrape-javlibrary
+
 # Rename JAV Files
 [![GitHub release](https://img.shields.io/github/release/jvlflame/Rename-JAV-files-javlibrary.svg?label=release)](https://github.com/jvlflame/Rename-JAV-files-javlibrary/releases/)
 [![GitHub downloads](https://img.shields.io/github/downloads/jvlflame/Rename-JAV-files-javlibrary/total.svg?style=popout)](#)
 [![Last commit](https://img.shields.io/github/last-commit/jvlflame/Rename-JAV-files-javlibrary.svg?style=popout)](https://github.com/jvlflame/Rename-JAV-files-javlibrary/commits/master)
 [![License](https://img.shields.io/github/license/jvlflame/Rename-JAV-files-javlibrary.svg?style=popout)](https://github.com/jvlflame/Rename-JAV-files-javlibrary/blob/master/LICENSE)
-
-## ALTERNATIVE
-Check out an alternative project to sort JAV files: https://github.com/jvlflame/JAV-Sorter-javlibrary
 
 Rename JAV files downloaded from JAVLibrary.com to their common ID format. I find that video files direct downloaded or torrented from JavLibrary tend to be inconsistent and ugly. This script is best used if you sort your media library manually and want a consistent video ID naming scheme.
 
